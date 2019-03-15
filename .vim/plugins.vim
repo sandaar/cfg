@@ -14,5 +14,6 @@ Plug 'w0rp/ale'
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/seoul256.vim'
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
