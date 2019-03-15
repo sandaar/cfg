@@ -1,6 +1,6 @@
 
 # added by pipsi (https://github.com/mitsuhiko/pipsi)
-export PATH="/Users/victoria/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 # Git branch details
 function parse_git_dirty() {

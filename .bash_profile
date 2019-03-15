@@ -2,14 +2,14 @@
 export M2_HOME=/usr/local/Cellar/maven/3.5.0/libexec
 
 ##
-# Your previous /Users/victoria/.bash_profile file was backed up as /Users/victoria/.bash_profile.macports-saved_2017-10-03_at_10:51:26
+# Your previous $HOME/.bash_profile file was backed up as /Users/victoria/.bash_profile.macports-saved_2017-10-03_at_10:51:26
 ##
 
 # MacPorts Installer addition on 2017-10-03_at_10:51:26: adding an appropriate PATH variable for use with MacPorts.
 export PATH="/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH"
 # Finished adapting your PATH environment variable for use with MacPorts.
-export PATH=/Users/victoria/Library/Python/3.6/bin/:$PATH
-export PATH=/usr/local/Cellar/vim/8.0.1250/bin/:/Users/victoria/scripts:$PATH
+export PATH=$HOME/Library/Python/3.6/bin/:$PATH
+export PATH=/usr/local/Cellar/vim/8.0.1250/bin/:$HOME/scripts:$PATH
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 export GREP_OPTIONS='--color=always'
