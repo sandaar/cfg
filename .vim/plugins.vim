@@ -15,5 +15,7 @@ Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/seoul256.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'noahfrederick/vim-noctu'
+Plug 'hashivim/vim-terraform'
 
 call plug#end()
