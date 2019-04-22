@@ -65,6 +65,11 @@ export FZF_DEFAULT_OPTS='--height 40% --border'
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 bind -x '"\C-p": vim $(fzf);'
+
 # study
 export STUDY="$HOME/Documents/personal/study"
 alias study='cd $STUDY'
+
+# work
+export WORK_DIR="$HOME/work/code"
+alias work='cd $WORK_DIR'
